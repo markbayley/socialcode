@@ -36,24 +36,26 @@ class NavBar extends Component {
     return (
       <Menu inverted fixed='top'>
         <Container>
-          <Menu.Item as={NavLink} exact to='/' header>
-            <img src='/assets/logo.png' alt='logo' />
-            Re-vents
+          <Menu.Item as={NavLink} exact to='/' header style={{ marginRight: -25 }}>
+            <img src='/assets/logo.png' alt='logo'  />
+          
           </Menu.Item>
           <Menu.Item as={NavLink} exact to='/events' name='Events' />
           {authenticated && (
             <Fragment>
               <Menu.Item as={NavLink} to='/people' name='People' />
-              <Menu.Item as={NavLink} to='/test' name='Test' />
-              <Menu.Item>
+           
+              <Menu.Item marginLeft=''  >
                 <Button
                   as={Link}
                   to='/createEvent'
                   floated='right'
                   positive
-                  inverted
-                  content='Create Event'
+                  inverted 
+                  icon='plus'
+                       
                 />
+                
               </Menu.Item>
             </Fragment>
           )}

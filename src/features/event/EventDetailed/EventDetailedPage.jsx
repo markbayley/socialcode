@@ -67,7 +67,7 @@ class EventDetailedPage extends Component {
     const chatTree = !isEmpty(eventChat) && createDataTree(eventChat)
     return (
       <Grid>
-        <Grid.Column width={10}>
+        <Grid.Column width={16}>
           <EventDetailedHeader
             event={event}
             isHost={isHost}

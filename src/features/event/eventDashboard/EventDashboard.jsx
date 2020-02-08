@@ -62,7 +62,7 @@ class EventDashboard extends Component {
    
     return (
       <Grid>
-        <Grid.Column width={10}>
+        <Grid.Column width={16}>
           <EventList
             loading={loading}
             events={loadedEvents}
@@ -70,7 +70,7 @@ class EventDashboard extends Component {
             getNextEvents={this.getNextEvents}
           />
         </Grid.Column>
-        <Grid.Column width={6}>
+        <Grid.Column width={16}>
           <EventActivity />
         </Grid.Column>
         <Grid.Column width={10}>
