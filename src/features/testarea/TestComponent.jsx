@@ -22,8 +22,8 @@ import {openModal} from '../modals/modalActions';
 class TestComponent extends Component {
     state = {
         latlng: {
-          lat: 59.95,
-          lng: 30.33
+          lat: -27.4698,
+          lng: 153.0251
         }
     };
 
@@ -65,7 +65,10 @@ class TestComponent extends Component {
                 />
                 <br>
                 </br>
+                <br></br>
+                <br></br>
                 <TestPlaceInput selectAddress={this.handleSelect}/>
+                <br></br>
                 <SimpleMap key={this.state.latlng.lng} latlng={this.state.latlng}/>
             </div>
         )
