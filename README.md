@@ -1,9 +1,10 @@
 Firebase React social app from Udemy tutorial
 
-<img src="https://github.com/markbayley/socialcode/blob/master/public/assets/revents1.png" width="auto" height="auto />
+<img src="https://github.com/markbayley/socialcode/blob/master/public/revents1.png" width="auto" height="auto />
 
-<img src="https://github.com/markbayley/socialcode/blob/master/public/assets/revents2.png" width="auto" height="auto />
+<img src="https://github.com/markbayley/socialcode/blob/master/public/revents2.png" width="auto" height="auto />
 
+       
 ## Available Scripts
 
 In the project directory, you can run:
