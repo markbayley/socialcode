@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Firebase React social app from Udemy tutorial
+
+<img src="https://github.com/markbayley/portfolio/blob/master/public/images/revents1.png" width="auto" height="auto />
+
+<img src="https://github.com/markbayley/portfolio/blob/master/public/images/revents2.png" width="auto" height="auto />
 
 ## Available Scripts
 
